@@ -1,0 +1,6 @@
+# Untrack folders
+BigQuery\ Tables/Configuration
+DAG/Configuration
+Reddit\ Data\ Extract/Configuration
+Spark/Configuration
+Transformation\ Table/Configuration
