@@ -1,0 +1,52 @@
+[
+  {
+    "mode": "REQUIRED",
+    "name": "id",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "name",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "title",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "date_created",
+    "type": "DATE"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "subreddit",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name":  "score",
+    "type": "INT64"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "upvote_ratio",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "num_comments",
+    "type": "INT64"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "url",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "permalink",
+    "type": "STRING"
+  }
+]
