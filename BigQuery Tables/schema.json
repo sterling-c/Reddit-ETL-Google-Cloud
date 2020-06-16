@@ -6,12 +6,12 @@
   },
   {
     "mode": "NULLABLE",
-    "name": "name",
+    "name": "title",
     "type": "STRING"
   },
   {
     "mode": "NULLABLE",
-    "name": "title",
+    "name": "name",
     "type": "STRING"
   },
   {
@@ -20,24 +20,24 @@
     "type": "DATE"
   },
   {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "subreddit",
     "type": "STRING"
   },
   {
     "mode": "NULLABLE",
     "name":  "score",
-    "type": "INT64"
+    "type": "INTEGER"
   },
   {
-    "mode": "NULLABLE",
+    "mode": "REQUIRED",
     "name": "upvote_ratio",
     "type": "NUMERIC"
   },
   {
     "mode": "NULLABLE",
     "name": "num_comments",
-    "type": "INT64"
+    "type": "INTEGER"
   },
   {
     "mode": "NULLABLE",

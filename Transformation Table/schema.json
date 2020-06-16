@@ -1,0 +1,47 @@
+[
+  {
+    "mode": "REQUIRED",
+    "name": "id",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "title",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "date_created",
+    "type": "DATE"
+  },
+  {
+    "mode": "REQUIRED",
+    "name":  "score",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "upvote_ratio",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "REQUIRED",
+    "name":  "upvote_category",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "num_comments",
+    "type": "INTEGER"
+  },
+   {
+    "mode": "REQUIRED",
+    "name":  "comments_per_upvote",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "permalink",
+    "type": "STRING"
+  }
+]
