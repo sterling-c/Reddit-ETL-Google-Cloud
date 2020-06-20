@@ -1,46 +1,46 @@
 [
   {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "id",
     "type": "STRING"
   },
   {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "title",
     "type": "STRING"
   },
   {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "date_created",
     "type": "DATE"
   },
   {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name":  "score",
     "type": "INTEGER"
   },
   {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "upvote_ratio",
-    "type": "NUMERIC"
+    "type": "FLOAT"
   },
   {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name":  "upvote_category",
     "type": "INTEGER"
   },
   {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "num_comments",
     "type": "INTEGER"
   },
    {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name":  "comments_per_upvote",
     "type": "NUMERIC"
   },
   {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "permalink",
     "type": "STRING"
   }

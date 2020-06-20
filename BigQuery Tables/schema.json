@@ -1,6 +1,6 @@
 [
   {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "id",
     "type": "STRING"
   },
@@ -15,7 +15,7 @@
     "type": "STRING"
   },
   {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "date_created",
     "type": "DATE"
   },
@@ -30,9 +30,9 @@
     "type": "INTEGER"
   },
   {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "upvote_ratio",
-    "type": "NUMERIC"
+    "type": "FLOAT"
   },
   {
     "mode": "NULLABLE",

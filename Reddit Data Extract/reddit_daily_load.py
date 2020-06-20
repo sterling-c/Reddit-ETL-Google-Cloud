@@ -22,7 +22,7 @@ reddit = praw.Reddit(client_id="$REDDIT_APP_ID",
 # This gives us the name of the file created by this script
 # and gives the path of the file within the destination bucket.
 # The resulting file is named after the date of the data was collected.
-bucket_loc = "submissions_store/" + str(yesterday) + ".json"
+bucket_loc = "$DESTINATION_FOLDER/" + str(yesterday) + ".json"
 
 # Selects the subreddit that we will pull submissions from.
 # 'all' isn't a real subreddit,

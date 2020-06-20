@@ -5,10 +5,10 @@ from pyspark.conf import SparkConf
 from pyspark.sql.session import SparkSession
 import datetime as dt
 
-# Reads Configuration file in order to
-# get the bucket locations for the input and output.
-bucket_source = "gs://r_etl/submissions_store/"
-bucket_destination = "gs://r_etl/spark_results/"
+# Get the bucket locations for the input and output.
+bucket_source = "PATH/TO/REDDIT/POSTS/FILES"
+bucket_destination = "PATH/TO/OUTPUT/FOLDER"
+
 # This gives us yesterday's date, which is when the data is based
 # and how we will name the JSON files.
 today = dt.date.today()
