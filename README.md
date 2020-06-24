@@ -53,7 +53,7 @@ Output:
 - JSON file containing transformed data for Reddit submissions. Schema is designed exactly to match the BigQuery table the data will be inserted into.
   
 ## BigQuery Tables
-  
+  Both tables are partitioned by "date_created"
 ### submissions
 Schema:
   - id
