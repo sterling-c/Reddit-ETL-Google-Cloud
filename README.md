@@ -3,7 +3,7 @@ This project creates an ETL pipeline that accesses Reddit's API to extract posts
 
 
 ## Procedure
-  1. Connect to pre-existing Dataproc Cluster with all required Python libraries already installed. These libraies are pandas, PRAW (Python Reddit API Wrapper), and Google Cloud Storage.
+  1. Connect to pre-existing Dataproc Cluster with all required Python libraries already installed. These libraries are pandas, PRAW (Python Reddit API Wrapper), and Google Cloud Storage.
   2. Run the Reddit job. This connects to the Reddit API, pulls submissions from the subreddit 'r/all', converts the data into a dataframe to be changed, and finally save the results as a JSON file to a bucket in Google Cloud Storage.
   3. The data resulting from the previous job is inserted into a pre-existing BigQuery Table. 
   4. Take the data from the reddit job and process it through Spark. We take the data and create a simulated SQL table, query it with two new fields based on certain calculations, and then create and store a new JSON file. 
